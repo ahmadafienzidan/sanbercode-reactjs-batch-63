@@ -1,4 +1,4 @@
-// Run dengan "node index.js" pada terminal
+// Run dengan "node tugas3.js" pada terminal
 
 // Soal 1 - Latihan Membuat variable dan valuenya
 let namalengkap = "Ahmad Afien Zidan";
