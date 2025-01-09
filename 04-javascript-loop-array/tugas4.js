@@ -29,7 +29,7 @@ console.log(array2);
 
 // Soal 6 - Mengeluarkan element array
 let array3 = ["selamat", "anda", "melakukan", "perulangan", "array", "dengan", "for"];
-for (let a = 1; a < array3.length; a++) {
+for (let a = 0; a < array3.length; a++) {
   console.log(array3[a]);
 }
 for (let b of array3) {
