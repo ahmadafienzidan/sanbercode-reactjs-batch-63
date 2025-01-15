@@ -1,9 +1,6 @@
-// import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
+const Tugas6 = () => {
   return (
-    <section id="section1">
+    <section id="tugas6">
       <div className="card">
         <h1> Hi, Saya Ahmad 'Afien Zidan 🧙‍♂️ </h1>
         <hr></hr>
@@ -11,6 +8,6 @@ function App() {
       </div>
     </section>
   );
-}
+};
 
-export default App;
+export default Tugas6;
