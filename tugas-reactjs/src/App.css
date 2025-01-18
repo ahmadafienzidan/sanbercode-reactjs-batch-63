@@ -26,6 +26,8 @@ section {
 
 #tugas8 .card-tugas8 button {
   padding: 10px;
+  border: 1px solid #808080;
+  border-radius: 8px;
 }
 #tugas8 .card-tugas8 span {
   text-align: start;
