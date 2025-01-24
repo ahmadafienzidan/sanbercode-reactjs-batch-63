@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Tugas6 />}></Route>
-          <Route path="/tugas7" element={<Tugas7 />}></Route>
+          <Route path="/tugas7" element={<Tugas7 name="Ahmad 'Afien Zidan" batch={63} email="afienzidan227@gmail.com" />}></Route>
           <Route path="/tugas8" element={<Tugas8 />}></Route>
           <Route path="/tugas9" element={<Tugas9 />}></Route>
           <Route path="/tugas10" element={<Tugas10 />}></Route>
