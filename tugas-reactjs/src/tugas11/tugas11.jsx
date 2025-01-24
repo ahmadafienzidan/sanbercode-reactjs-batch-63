@@ -53,6 +53,11 @@ const Tugas11 = () => {
         })
         .catch((err) => console.error(err));
     }
+    setInput({
+      name: "",
+      course: "",
+      score: 0,
+    });
   };
 
   // Handle Edit
