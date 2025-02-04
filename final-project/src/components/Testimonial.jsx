@@ -4,7 +4,6 @@ const Testimonial = () => {
       <div className="max-w-screen-xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-white mb-16">Success Stories from Our Talents</h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Testimonial 1 */}
           <div className="relative bg-white rounded-2xl p-8 shadow-xl transform hover:scale-105 transition-all">
             <div className="absolute -top-6 left-6 w-12 h-12 bg-[#B65BC2] rounded-full flex items-center justify-center">
               <span className="text-white text-2xl">📢</span>
@@ -20,7 +19,6 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* Testimonial 2 */}
           <div className="relative bg-white rounded-2xl p-8 shadow-xl transform hover:scale-105 transition-all">
             <div className="absolute -top-6 left-6 w-12 h-12 bg-[#6149C3] rounded-full flex items-center justify-center">
               <span className="text-white text-2xl">📢</span>
@@ -36,7 +34,6 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* Testimonial 3 */}
           <div className="relative bg-white rounded-2xl p-8 shadow-xl transform hover:scale-105 transition-all">
             <div className="absolute -top-6 left-6 w-12 h-12 bg-[#B65BC2] rounded-full flex items-center justify-center">
               <span className="text-white text-2xl">📢</span>

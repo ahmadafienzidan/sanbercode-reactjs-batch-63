@@ -1,5 +1,3 @@
-// components/JobDetailCard.jsx
-
 import { useNavigate } from "react-router-dom";
 
 const JobDetailCard = ({ job }) => {
@@ -11,7 +9,6 @@ const JobDetailCard = ({ job }) => {
     <main className="max-w-4xl mx-auto px-4 py-12 ">
       <div className="h-[50px]"></div>
       <div className="bg-white rounded-xl shadow-2xl p-8">
-        {/* Tombol Kembali */}
         <button onClick={() => navigate(-1)} className="mb-6 flex items-center text-[#6149C3] hover:text-[#B65BC2] transition-colors">
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -19,7 +16,6 @@ const JobDetailCard = ({ job }) => {
           Back to Jobs
         </button>
 
-        {/* Company Header */}
         <div className="flex items-center gap-6 mb-8">
           <img src={job.company_image_url} alt={job.company_name} className="w-20 h-20 object-contain border rounded-lg p-2" />
           <div>
@@ -33,7 +29,6 @@ const JobDetailCard = ({ job }) => {
           </div>
         </div>
 
-        {/* Job Meta */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div>
             <p className="text-gray-500">Location</p>

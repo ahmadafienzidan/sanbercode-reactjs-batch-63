@@ -1,17 +1,14 @@
-//src/components/Hero.jsx
 import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 
 const Hero = ({ variant = "home" }) => {
-  // Konten default untuk home
   let content = {
     title: "One Step Closer to Your Dream Job",
     description: "Find the best job opportunities that match your dreams and skills. With NextStep, you can move closer to your dream career. Start now!",
     showButtons: true,
   };
 
-  // Override konten jika variant adalah job-vacancy
   if (variant === "job-vacancy") {
     content = {
       title: "Build your dream career with NextStep!",
@@ -21,7 +18,7 @@ const Hero = ({ variant = "home" }) => {
   }
 
   return (
-    <section id="jumbotron" className="bg-center bg-no-repeat overflow-y-scroll bg-fixed bg-[url(/src/assets/img/Jumbotron.png)] bg-gray-700 bg-blend-multiply">
+    <section id="jumbotron" className="bg-center bg-no-repeat overflow-y-scroll bg-fixed bg-[url(/public/img/Jumbotron.png)] bg-gray-700 bg-blend-multiply">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
           Next<span className="bg-linear-65 from-purple-500 to-[#B65BC2] inline-block text-transparent bg-clip-text">Step</span> <br />

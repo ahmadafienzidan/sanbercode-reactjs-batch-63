@@ -9,14 +9,11 @@ const WhyUs = () => {
           <p className="text-gray-600 max-w-4xl mx-auto">We provide a range of services to help your career grow</p>
         </div>
         <div className="flex flex-col md:flex-row gap-12 items-center">
-          {/* Image Section */}
           <div className="w-full md:w-1/2">
-            <img src="./src/assets/img/Services.png" alt="Our Services" className="rounded-lg ransform hover:scale-105 transition-transform duration-300" />
+            <img src="./public/img/Services.png" alt="Our Services" className="rounded-lg ransform hover:scale-105 transition-transform duration-300" />
           </div>
-          {/* Services List */}
           <div className="w-full md:w-1/2">
             <div className="grid gap-8">
-              {/* Service 1 */}
               <div className="flex items-start space-x-4 p-4 bg-white rounded-lg hover:shadow-md transition-all">
                 <div className="w-12 h-12 bg-[#6149C3] rounded-full flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -33,7 +30,7 @@ const WhyUs = () => {
                   <p className="text-gray-600">Job recommendation system based on your skills and preferences</p>
                 </div>
               </div>
-              {/* Service 2 */}
+
               <div className="flex items-start space-x-4 p-4 bg-white rounded-lg hover:shadow-md transition-all">
                 <div className="w-12 h-12 bg-[#B65BC2] rounded-full flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -50,7 +47,7 @@ const WhyUs = () => {
                   <p className="text-gray-600">Consultation session with HR professionals</p>
                 </div>
               </div>
-              {/* Service 3 */}
+
               <div className="flex items-start space-x-4 p-4 bg-white rounded-lg hover:shadow-md transition-all">
                 <div className="w-12 h-12 bg-[#6149C3] rounded-full flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,7 +64,7 @@ const WhyUs = () => {
                   <p className="text-gray-600">Professional skill development course</p>
                 </div>
               </div>
-              {/* Service 4 */}
+
               <div className="flex items-start space-x-4 p-4 bg-white rounded-lg hover:shadow-md transition-all">
                 <div className="w-12 h-12 bg-[#6149C3] rounded-full flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -1,4 +1,3 @@
-// components/SideBar.jsx
 import { useEffect, useState } from "react";
 import { Drawer } from "flowbite";
 

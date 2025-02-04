@@ -30,10 +30,9 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* Ini Logo */}
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./src/assets/img/NextStep Logo.png" className="h-8 hover:scale-105" alt="Next Step Logo" />
+            <img src="../../public/img/NextStep Logo.png" className="h-8 hover:scale-105" alt="Next Step Logo" />
           </Link>
 
-          {/* Mobile Menu Button */}
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <Link to="/login" className="text-white bg-[#6149C3] hover:bg-[#B65BC2] transition-colors font-medium rounded-lg text-sm px-4 py-2 text-center">
               Login
