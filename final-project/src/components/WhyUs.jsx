@@ -1,4 +1,5 @@
 const WhyUs = () => {
+  const Services = "/img/Services.png";
   return (
     <section className="py-16">
       <div className="max-w-screen-xl mx-auto px-4">
@@ -10,7 +11,7 @@ const WhyUs = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="w-full md:w-1/2">
-            <img src="./public/img/Services.png" alt="Our Services" className="rounded-lg ransform hover:scale-105 transition-transform duration-300" />
+            <img src={Services} alt="Our Services" className="rounded-lg ransform hover:scale-105 transition-transform duration-300" />
           </div>
           <div className="w-full md:w-1/2">
             <div className="grid gap-8">
